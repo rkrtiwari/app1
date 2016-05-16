@@ -12,9 +12,6 @@ shinyUI(fluidPage(
     ),
     
     mainPanel(
-      textOutput("n"),
-      textOutput("mean"),
-      textOutput("sd1"),
       plotOutput("ndisPlot")
     )
   )
